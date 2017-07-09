@@ -8,25 +8,30 @@
           content="Paulina Binas" />
     <link href="styles.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans" rel="stylesheet">
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous">
+    </script>
 </head>
 <body>
     <div id="main">
         <div id="top"></div>
         <div id="header">
             <span id="button1">
-                Home
+                <a href="index.html" class="top_button">Home</a>
             </span>
             <span id="button2">
-                Products
+                <a href="index.html" class="top_button">Products</a>
             </span>
             <span id="logo_div">
                 <img id="logo" src="logo.png" alt="logo" width="120" height="120">
             </span>
             <span id="button3">
-                About us
+                <a href="index.html" class="top_button">About us</a>
             </span>
             <span id="button4">
-                Contact
+                <a href="index.html" class="top_button">Contact</a>
             </span>
         </div> <!-- end of header -->
 
@@ -34,9 +39,11 @@
 
         <div id="hero">
             <h1>This is just a sample page</h1>
-            <div id="push_button" class="button">
-                push the button
-            </div>
+            <a href="" id="pushTheButton">
+                <div id="push_button" class="button">
+                    push the button
+                </div>
+            </a>
         </div> <!-- end of hero -->
 
         <hr />
@@ -44,7 +51,7 @@
         <div id="content">
             <div id="col1" class="column">
                 <h3>A heading title</h3>
-                <div id="col_upper">
+                <div class="col_upper">
                     <span class="col_img">
                         <img src="paragraph_img.png" width="76" height="76">
                     </span>
@@ -53,15 +60,15 @@
                     </span>
                 </div>
 
-                <div id="col_lower">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget ex nulla. Integer ullamcorper nibh lorem, ut porttitor mi sagittis eget. Aenean malesuada mattis justo, sed efficitur nisl fringilla eget. Integer a mi quis lectus vulputate tempus quis quis dui. Mauris suscipit euismod urna, eget feugiat tellus imperdiet vitae. Vestibulum.</p>
-                    <p class="read_more">&mdash; read more</p>
+                <div class="col_lower">
+                    <p class="lower_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget ex nulla. Integer ullamcorper nibh lorem, ut porttitor mi sagittis eget. Aenean malesuada mattis justo, sed efficitur nisl fringilla eget. Integer a mi quis lectus vulputate tempus quis quis dui. Mauris suscipit euismod urna, eget feugiat tellus imperdiet vitae. Vestibulum.</p>
+                    <p><a href="" class="read_more">&mdash; read more</a></p>
                 </div>
             </div> <!-- end of col1 -->
 
             <div id="col2" class="column">
                 <h3>A much longer heading title</h3>
-                <div id="col_upper">
+                <div class="col_upper">
                     <span class="col_img">
                         <img src="paragraph_img.png" width="76" height="76">
                     </span>
@@ -69,15 +76,15 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis felis fermentum, dictum odio ut.
                     </span>
                 </div>
-                <div id="col_lower">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget ex nulla. Integer ullamcorper nibh lorem, ut porttitor mi sagittis eget. Aenean malesuada mattis justo, sed efficitur nisl fringilla eget.</p>
-                    <p class="read_more">&mdash; read more</p>
+                <div class="col_lower">
+                    <p class="lower_p_middle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget ex nulla. Integer ullamcorper nibh lorem, ut porttitor mi sagittis eget. Aenean malesuada mattis justo, sed efficitur nisl fringilla eget.</p>
+                    <p><a href="" class="read_more">&mdash; read more</a></p>
                 </div>
             </div> <!-- end of col2 -->
 
             <div id="col3" class="column">
                 <h3>A heading title</h3>
-                <div id="col_upper">
+                <div class="col_upper">
                     <span class="col_img">
                         <img src="paragraph_img.png" width="76" height="76">
                     </span>
@@ -85,9 +92,9 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis felis fermentum, dictum odio ut.
                     </span>
                 </div>
-                <div id="col_lower">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget ex nulla. Integer ullamcorper nibh lorem, ut porttitor mi sagittis eget. Aenean malesuada mattis justo, sed efficitur nisl fringilla eget. Integer a mi quis lectus vulputate tempus quis quis dui. Mauris suscipit euismod urna, eget feugiat tellus imperdiet vitae. Vestibulum.</p>
-                    <p class="read_more">&mdash; read more</p>
+                <div class="col_lower">
+                    <p class="lower_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget ex nulla. Integer ullamcorper nibh lorem, ut porttitor mi sagittis eget. Aenean malesuada mattis justo, sed efficitur nisl fringilla eget. Integer a mi quis lectus vulputate tempus quis quis dui. Mauris suscipit euismod urna, eget feugiat tellus imperdiet vitae. Vestibulum.</p>
+                    <p><a href="" class="read_more">&mdash; read more</a></p>
                 </div>
             </div> <!-- end of col3 -->
 
@@ -98,14 +105,14 @@
         <div id="contact">
             <h2>Contact us</h2>
             <form action="http://www.randompageforchopchop.com/login.php">
-                <div id="left_form">
+                <span id="left_form">
                     <input id="name" type="text" size="15" maxlength="50" placeholder="name" />
-                    <input id="email" type="email" size="15" placeholder="email" />
+                    <input id="email" type="email" size="15" placeholder="e-mail" />
                     <input id="phone" type="tel" size="15" placeholder="phone" />
-                </div>
-                <div id="right_form">
+                </span>
+                <span id="right_form">
                     <textarea name="message"  placeholder="your message"></textarea>
-                </div>
+                </span>
                 <div id="submit_bttn">
                     <input id="submit" type="submit" value="send message">
                 </div>
@@ -115,16 +122,16 @@
     <div id="footer">
         <span id="footer_buttons">
             <span id="left_buttons">
-                <p>&mdash; home</p>
-                <p>&mdash; products</p>
+                <p><a href="">&mdash; home</a></p>
+                <p><a href="">&mdash; products</a></p>
             </span>
             <span id="right_buttons">
-                <p>&mdash; about us</p>
-                <p>&mdash; contact</p>
+                <p><a href="">&mdash; about us</a></p>
+                <p><a href="">&mdash; contact</a></p>
             </span>
         </span>
         <span id="footer_middle">
-                <a href="#top">
+                <a href="#top" id="scrollTop">
                     <div id="back_to_top">
                         back to top    
                     </div>
@@ -139,8 +146,11 @@
                 </div>
             </span>
         <span id="right_text">
-            Copyright © 2010 Sample &amp; Pack, Inc.
+            Copyright &copy; 2010 Sample &amp; Pack, Inc.
         </span>
     </div> <!-- end of footer -->
+    <script type="text/javascript" src="smooth_scroll.js"></script>
+    <script type="text/javascript" src="red_ipsum.js"></script>
+    <script type="text/javascript" src="read_more.js"></script>
 </body>
 </html>
