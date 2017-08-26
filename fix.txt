@@ -1,0 +1,17 @@
+done:
+	-> moved images into img folder
+	-> changed image links
+	-> added image alt's
+	-> changed <title> to Sample Pack Page
+	-> added wrapper div
+ to do:
+	-> change div's into section's
+	-> change id's to classes everywhere where a link is not required
+	-> add comments
+	-> change class names to clearer ones
+	-> add more meaningful tags
+	-> add <nav> to navigation
+	-> put navigation elements into a list
+	-> add <article> tags
+	-> add <footer>, <header> and <main> tags
+	-> ...

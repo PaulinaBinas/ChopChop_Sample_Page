@@ -1,0 +1,31 @@
+Szacunkowy czas spêdzony nad zadaniami:
+	-> HTML: 3h
+	-> CSS: 5h
+	-> Javascript: 2h
+
+Komentarze do zadañ JavaScript:
+	Ze wzglêdu na blokadê plików z rozszerzeniem JS przez Gmail-a, przesy³am napisane przeze mnie
+	trzy pliki javascript, z rozszerzeniem txt. Proszê o zapisanie ich z rozszerzeniem .js przed
+	uruchomieniem strony.
+	
+	-> smooth_scroll.js
+		Do zaimplementowania animiacji smooth scroll u¿y³am funkcji animate(), która zostaje
+		wywo³ana w momencie klikniêcia przycisku z id scrollTop. 
+
+	-> read_more.js
+		W tym skrypcie, napisa³am trzy funkcje, po jednej dla ka¿dego przycisku "read more".
+		W momencie klikniêcia w przycisk, zostaje wywo³ana funkcja, która dodaje do danej 
+		kolumny wiêcej tekstu z u¿yciem append().
+
+	-> red_ipsum.js
+		W tym zadaniu, w momencie naciœniêcia przycisku z id pushTheButton, tworzy zmienne z
+		dla wszystkich tekstów w kolumnach, po czym zamienia elementy ipsum na element <span>
+		z tym samym tekstem, ale kolorem czerwonym. Nastêpnie, u¿ywaj¹c setTimeout() z opóŸnieniem
+		3000ms wykonuje siê funkcja changeBack(). Zamienia ona w ten sam sposób wszystkie ipsum 
+		w kolumnach, ale tym razem na kolor czarny.
+
+Komentarz do pozosta³ych zadañ:
+	Pozosta³ych zadañ z PHP i AJAX nie da³am rady wykonaæ, poniewa¿ dopiero zaczê³am uczyæ siê jêzyka
+	PHP, a AJAX zamierzam dopiero poznaæ.
+
+	
