@@ -4,14 +4,19 @@ done:
 	-> added image alt's
 	-> changed <title> to Sample Pack Page
 	-> added wrapper div
- to do:
-	-> change div's into section's
+	-> moved javascript files into folder scripts
+	-> moved css file into folder styles
+	-> made twitter and facebook icon into links opened in new tab
+	-> add <footer>, <header> and <main> tags
+	-> add <nav> to navigation
+	-> add <article> tags
 	-> change id's to classes everywhere where a link is not required
+	-> change div's into section's
+	-> added if to read_more.js to check if it's already been clicked
+	-> optimized red_ipsum.js by changing ids to classes
+ to do:
 	-> add comments
 	-> change class names to clearer ones
-	-> add more meaningful tags
-	-> add <nav> to navigation
-	-> put navigation elements into a list
-	-> add <article> tags
-	-> add <footer>, <header> and <main> tags
+	!-> make website responsive 
+	!-> fix twitter and facebook icons to stay centered
 	-> ...

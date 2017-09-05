@@ -7,8 +7,8 @@ function changeBack(col_upper, col_lower_left, col_lower_middle, col_lower_right
     col_lower_middle.html(col_lower_middle.html().replace(/ipsum/, ' <span style="color: black">$&</span>'));
 }
 
-$("#pushTheButton").click(function() {
-    var col_upper = $(".col_txt");
+$(".button").click(function() {
+    const col_upper = $(".col_txt");
     var col_lower_right = $("#lower_p_right");
     var col_lower_left = $("#lower_p_left");
     var col_lower_middle = $("#lower_p_middle");
